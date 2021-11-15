@@ -1,3 +1,8 @@
+ul {
+	list-style-type: square;
+	display; list-item;
+	}
+
 h1 {
 	font-size: 24 pt;
 	color: red;
@@ -10,8 +15,4 @@ em {
 	background-color: lightgrey;
 	font-weight: bold;
 	}
-ul {
-	list-style-type: square;
-	display: list-item;
 
-	}
