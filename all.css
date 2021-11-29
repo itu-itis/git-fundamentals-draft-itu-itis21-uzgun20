@@ -6,7 +6,12 @@ h1 {
 	font-size: 24 pt;
 	color: red;
 	text-decoration: underline;
-	font-family: Tahoma, Helvetica, sans-serif; 
+	font-family: Tahoma, Helvetica, sans-serif;
+	text-align: center;
+	border: thick solid red;
+	text-decoration: none;
+	padding: 1ex;
+	width: 50%;
 	}
 em {
 	color: green;
@@ -14,4 +19,21 @@ em {
 	background-color: lightgrey;
 	font-weight: bold;
 	}
+	
+a:hover {
+	text-decoration: none;
+}
 
+li:first-child {
+	border : thick solid green;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding: 1ex;
+	width: 40%;
+}
+
+p.centered {
+	text-align: center;
+	width: 50%
+
+}
